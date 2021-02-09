@@ -30,10 +30,13 @@ Note: Noise(%) is the percentage of total elements out of order.
 WindowThreshold(%) is the window within which an out of order element can
 occur from its original position.
 
+
 How to run using terminal
-  make
-  ./workloadgenerator 1000000 0 5   (for generation the map file.)
-  ./main data_1000000-elems_0-kperct_5-lperct_1seed1612319701.dat test_pq
-  ./main data_1000000-elems_0-kperct_5-lperct_1seed1612319701.dat test_rq_1
-  ./main data_1000000-elems_0-kperct_5-lperct_1seed1612319701.dat test_rq_2
-  ./main data_1000000-elems_0-kperct_5-lperct_1seed1612319701.dat test_rq_3
+
+
+	make
+	./workloadgenerator 1000000 0 5   (for generation the map file.)
+	./main data_1000000-elems_0-kperct_5-lperct_1seed1612319701.dat test_pq
+	./main data_1000000-elems_0-kperct_5-lperct_1seed1612319701.dat test_rq_1
+	./main data_1000000-elems_0-kperct_5-lperct_1seed1612319701.dat test_rq_2
+	./main data_1000000-elems_0-kperct_5-lperct_1seed1612319701.dat test_rq_3
